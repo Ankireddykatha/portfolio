@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kankireddy — DevOps Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">&lt;DevOps /&gt;</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Kankireddy</h1>
+      <h2 class="hero-title">DevOps Engineer</h2>
+      <p class="hero-subtitle">
+        Building resilient cloud infrastructure &amp; automating everything in between.
+      </p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">6+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">5+</span>
+          <span class="stat-label">Years Cloud &amp; DevOps</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">2</span>
+          <span class="stat-label">Cloud Platforms</span>
+        </div>
+      </div>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+        <a href="#experience" class="btn btn-secondary">View Experience</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="terminal-window">
+        <div class="terminal-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="terminal-title">kankireddy@devops</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> kubectl get pods --all-namespaces</p>
+          <p class="output">All systems running ✓</p>
+          <p><span class="prompt">$</span> terraform plan</p>
+          <p class="output">Infrastructure up-to-date ✓</p>
+          <p><span class="prompt">$</span> docker ps</p>
+          <p class="output">12 containers healthy ✓</p>
+          <p><span class="prompt">$</span> <span class="cursor">_</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I'm a <strong>DevOps Engineer</strong> currently working at
+            <strong>Hashedin by Deloitte</strong> in Hyderabad. With over
+            <strong>6 years of IT experience</strong> and
+            <strong>5+ years specializing in Cloud &amp; DevOps</strong>, I bring
+            deep expertise in building, automating, and securing modern
+            infrastructure.
+          </p>
+          <p>
+            My journey started as a <strong>System Administrator</strong>, where I
+            built a solid foundation in infrastructure management. I gradually
+            transitioned into <strong>Cloud Engineering</strong> with AWS and GCP,
+            and eventually into the <strong>DevOps</strong> space — where I found
+            my passion for CI/CD pipelines, container orchestration, Infrastructure
+            as Code, and security-first practices.
+          </p>
+          <p>
+            I'm passionate about bridging the gap between development and
+            operations, enabling teams to ship faster and more reliably.
+          </p>
+        </div>
+        <div class="about-cards">
+          <div class="info-card">
+            <div class="info-icon">📍</div>
+            <div>
+              <h4>Location</h4>
+              <p>Hyderabad, India</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">🏢</div>
+            <div>
+              <h4>Current Role</h4>
+              <p>DevOps Engineer @ Hashedin by Deloitte</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">☁️</div>
+            <div>
+              <h4>Cloud Platforms</h4>
+              <p>AWS &amp; Google Cloud Platform</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot current"></div>
+          <div class="timeline-content">
+            <div class="timeline-badge">Current</div>
+            <h3>DevOps Engineer</h3>
+            <h4>Hashedin by Deloitte — Hyderabad</h4>
+            <p class="timeline-duration">3.9 Years</p>
+            <ul>
+              <li>Designing and managing CI/CD pipelines using Jenkins &amp; GitHub Actions</li>
+              <li>Container orchestration with Kubernetes &amp; Docker</li>
+              <li>Infrastructure as Code with Terraform &amp; Ansible</li>
+              <li>Implementing security scanning with Trivy, SonarQube, Mend &amp; Contrast</li>
+              <li>Cloud infrastructure management on AWS &amp; GCP</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>System Admin / Cloud Engineer</h3>
+            <h4>Bitcot Technologies — Chennai</h4>
+            <p class="timeline-duration">2.11 Years</p>
+            <ul>
+              <li>System administration and infrastructure management</li>
+              <li>Migration of workloads to AWS &amp; GCP cloud environments</li>
+              <li>Transition from traditional sysadmin to cloud-first approach</li>
+              <li>Automation of routine operational tasks</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Core Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">⚙️</div>
+          <h3>CI/CD &amp; Automation</h3>
+          <p>Building robust pipelines that automate build, test, and deployment workflows for rapid and reliable delivery.</p>
+          <div class="skill-tags">
+            <span>Jenkins</span><span>GitHub Actions</span><span>Git</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">☁️</div>
+          <h3>Cloud Infrastructure</h3>
+          <p>Architecting and managing scalable, cost-efficient cloud environments across multiple providers.</p>
+          <div class="skill-tags">
+            <span>AWS</span><span>GCP</span><span>IAM</span><span>VPC</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🐳</div>
+          <h3>Containers &amp; Orchestration</h3>
+          <p>Containerizing applications and managing production-grade Kubernetes clusters for microservices.</p>
+          <div class="skill-tags">
+            <span>Docker</span><span>Kubernetes</span><span>Helm</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">📜</div>
+          <h3>Infrastructure as Code</h3>
+          <p>Defining infrastructure declaratively to enable version-controlled, repeatable, and auditable environments.</p>
+          <div class="skill-tags">
+            <span>Terraform</span><span>Ansible</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🔒</div>
+          <h3>Security &amp; Compliance</h3>
+          <p>Integrating security scanning into CI/CD pipelines for shift-left vulnerability detection.</p>
+          <div class="skill-tags">
+            <span>Trivy</span><span>SonarQube</span><span>Mend</span><span>Contrast</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🖥️</div>
+          <h3>System Administration</h3>
+          <p>Deep Linux fundamentals, networking, and infrastructure troubleshooting from years of hands-on sysadmin work.</p>
+          <div class="skill-tags">
+            <span>Linux</span><span>Networking</span><span>Monitoring</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tools Section -->
+  <section id="tools">
+    <div class="container">
+      <h2 class="section-title">Tech Stack</h2>
+      <div class="tools-grid">
+        <div class="tool-item"><div class="tool-name">AWS</div></div>
+        <div class="tool-item"><div class="tool-name">GCP</div></div>
+        <div class="tool-item"><div class="tool-name">Kubernetes</div></div>
+        <div class="tool-item"><div class="tool-name">Docker</div></div>
+        <div class="tool-item"><div class="tool-name">Terraform</div></div>
+        <div class="tool-item"><div class="tool-name">Ansible</div></div>
+        <div class="tool-item"><div class="tool-name">Jenkins</div></div>
+        <div class="tool-item"><div class="tool-name">GitHub Actions</div></div>
+        <div class="tool-item"><div class="tool-name">Git</div></div>
+        <div class="tool-item"><div class="tool-name">Trivy</div></div>
+        <div class="tool-item"><div class="tool-name">SonarQube</div></div>
+        <div class="tool-item"><div class="tool-name">Mend</div></div>
+        <div class="tool-item"><div class="tool-name">Contrast</div></div>
+        <div class="tool-item"><div class="tool-name">Linux</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Career Journey Section -->
+  <section id="journey">
+    <div class="container">
+      <h2 class="section-title">Career Journey</h2>
+      <div class="journey-path">
+        <div class="journey-step">
+          <div class="journey-icon">🖥️</div>
+          <h3>System Admin</h3>
+          <p>Started with foundational infrastructure &amp; server management</p>
+        </div>
+        <div class="journey-arrow">→</div>
+        <div class="journey-step">
+          <div class="journey-icon">☁️</div>
+          <h3>Cloud Engineer</h3>
+          <p>Transitioned to AWS &amp; GCP cloud platforms</p>
+        </div>
+        <div class="journey-arrow">→</div>
+        <div class="journey-step">
+          <div class="journey-icon">🚀</div>
+          <h3>DevOps Engineer</h3>
+          <p>Mastered CI/CD, IaC, containers &amp; security automation</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-text">
+        Interested in collaborating or have a question? Feel free to reach out!
+      </p>
+      <div class="contact-links">
+        <a href="mailto:your.email@example.com" class="contact-card">
+          <span class="contact-icon">✉️</span>
+          <span>Email Me</span>
+        </a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <span class="contact-icon">💼</span>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <span class="contact-icon">🐙</span>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Kankireddy. Built with passion for DevOps.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
